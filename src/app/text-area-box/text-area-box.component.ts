@@ -13,6 +13,7 @@ export class TextAreaBoxComponent implements OnInit {
 	@Output() updateText = new EventEmitter<any>();
   //Input Bindings
 	@Input() rows: number =10;
+	@Input() cols: number =20
 	@Input() inputLabel: string = "";
 	@Input() statusText: string  = "";
   @Input() text: string = "";
