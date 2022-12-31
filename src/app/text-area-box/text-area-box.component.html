@@ -1,0 +1,8 @@
+<form [formGroup] = "textAreaForm">
+<div  class="text-area-heading">{{statusText}} </div>
+<div  class="text-area-sub-heading">{{inputLabel}}</div>
+<textarea (change)="update($event)"  [rows] = "rows" class ="tesxt-area"  [(ngModel)]="text" formControlName="textArea" [maxlength]="maxCount"></textarea>
+<span class="count">{{text.length}}</span>
+</form>
+
+

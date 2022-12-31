@@ -1,4 +1,9 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<app-text-area-box
+[statusText]="'Comment'"
+[inputLabel]="'test'"
+[rows]="5"
+[text]=""
+[maxCount]="500"
+(updateText)=commentUpdate($event)
+>
+</app-text-area-box>

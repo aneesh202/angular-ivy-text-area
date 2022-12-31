@@ -1,0 +1,32 @@
+
+.text-area-heading{
+  display: block;
+  margin-bottom: 7px;
+  font-weight: bold;
+}
+.text-area-sub-heading{
+  display: block;
+  margin-bottom: 7px;
+  font-weight: normal;
+}
+
+.count {
+  position: relative;
+  right: 10px;
+  top: 13px;
+}
+
+textarea {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+textarea {
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid rgb(10, 9, 9);
+    box-shadow: 1px 1px 1px #999;
+}
+
